@@ -69,7 +69,7 @@ async def alive(client, message):
         photo=f"{BOT_IMG}",
         caption=f"""**{alv} Holla {message.from_user.mention()}, I'm {bn}.**
 
-{alv} **I'm Working Properly**
+{alv} **Music player Working Properly**
 
 {alv} **Bot : 6.0 LATEST**
 
