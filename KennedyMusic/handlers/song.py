@@ -43,7 +43,7 @@ from KennedyMusic.helpers.filters import command
 from KennedyMusic.config import DURATION_LIMIT, BOT_USERNAME, BOT_NAME
 
 
-@Client.on_message(filters.command(["song", f"song@{BOT_USERNAME}"]) & ~filters.channel)
+@Client.on_message(filters.command(["tgsong", f"tgsong@{BOT_USERNAME}"]) & ~filters.channel)
 def song(client, message):
     user_id = message.from_user.id
     user_name = message.from_user.first_name
